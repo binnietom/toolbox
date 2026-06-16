@@ -51,6 +51,14 @@ Run quality checks (format, lint, type check, test):
 just qa
 ```
 
+## Notes
+
+Wrt accuracy I think it helps to understand floating point representation. Integers are easily represented in bits. S x M x B^(E-e) = any number, where S is a sign bit, M the mantissa (binary integer), and another integer that represents the digits beyond the decimal point.
+From this all combinations of numbers up to a precision can be represented e.g. (-1)^S x 1.F x 2^(E-e), where floats have e = 127, double e = 1023.
+Note that +/- 0 are different and +/- infty are the maximum 255-127 or 2047-1022. Nan is defined with digits beyond the resolution (i.e. an infty with non-zero F.
+
+Floating point maths has some pitfalls TODO, give examples.
+
 ## Author
 
 toolbox was created in 2026 by Thomas Binnie.
