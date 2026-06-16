@@ -12,6 +12,14 @@ A numerical toolbox for mathematical methods in science, engineering and beyond.
 
 Tested the wrapping template
 
+## Installation & Usage
+
+pip install cython
+cd toolbox
+python setup.py build_ext --inplace
+pip install -e . 
+python tests/test_toolbox.py 
+
 ## Documentation
 
 Documentation is built with [Zensical](https://zensical.org/) and deployed to GitHub Pages.
