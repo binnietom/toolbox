@@ -1,10 +1,8 @@
-#include "nr3.h"
+//#include "nr3.h"
 #include <iostream>
 using namespace std;
 
-int main() {
+void hello_cpp() {
     // This statement prints "Hello World"
-    cout << "Hello World";
-
-    return 0;
+    cout << "Hello from C++";
 }

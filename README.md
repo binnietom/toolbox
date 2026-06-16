@@ -10,7 +10,7 @@ A numerical toolbox for mathematical methods in science, engineering and beyond.
 
 ## Features
 
-* TODO
+Tested the wrapping template
 
 ## Documentation
 
