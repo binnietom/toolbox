@@ -11,10 +11,10 @@ A numerical toolbox for mathematical methods in science, engineering and beyond.
 ## Features
 
 Tested the wrapping template.
+Checked c++ tests and some bit shifting examples in cpp_tests
 
-TODO test wrapping template passes parameters.
+TODO Test wrapping template passes parameters.
 
-Linear polynomial solutions via matrices.
 
 ## Installation & Usage
 
