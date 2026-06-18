@@ -10,15 +10,19 @@ A numerical toolbox for mathematical methods in science, engineering and beyond.
 
 ## Features
 
-Tested the wrapping template
+Tested the wrapping template.
+
+TODO test wrapping template passes parameters.
+
+Linear polynomial solutions via matrices.
 
 ## Installation & Usage
 
 pip install cython
 cd toolbox
 python setup.py build_ext --inplace
-pip install -e . 
-python tests/test_toolbox.py 
+pip install -e .
+python tests/test_toolbox.py
 
 ## Documentation
 
