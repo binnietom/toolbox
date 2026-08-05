@@ -52,3 +52,6 @@ site/
 # IDE files
 # .idea/
 # .vscode/
+
+#Ignoring data examples in pymods
+src/pymods/dataexamples/
