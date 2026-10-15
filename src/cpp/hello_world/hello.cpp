@@ -6,3 +6,4 @@ void hello_cpp() {
     // This statement prints "Hello World"
     cout << "Hello from C++";
 }
+
