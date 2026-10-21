@@ -55,3 +55,8 @@ site/
 
 #Ignoring data examples in pymods
 src/pymods/dataexamples/
+src/KP/gpt_dev/.DS_Store
+src/KP/.DS_Store
+src/.DS_Store
+src/KP/gpt_dev/.DS_Store
+.DS_Store
